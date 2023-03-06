@@ -4,7 +4,7 @@ const mongoose=require("mongoose");
 const app=express();
 
 
-mongoose.connect("mongodb://127.0.0.1:27017/to_do_list");
+mongoose.connect("mongodb+srv://sohan2002biswas:Deep1234@cluster0.5jyx4ue.mongodb.net/to_do_list");
 const RegisterSchema=new mongoose.Schema({
    name:String,
    email:String,
